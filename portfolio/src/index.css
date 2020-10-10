@@ -10,7 +10,7 @@ main {
   --tertiary: #B12704;
   --light:goldenrod;
   --dark: rgb(246, 231, 191);
-  --darker: #111111;
+  --darker:rgb(82, 62, 34);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -36,7 +36,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: 'Lobster', cursive;
 
 }
 
@@ -46,10 +46,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
   margin: 5px 0;
   line-height: 1.25;
+  color: var(--light);
 }
 
 h1 {
@@ -92,7 +93,7 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--darker);
 }
 
 header a {
