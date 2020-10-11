@@ -3,8 +3,7 @@ import Nav from './components/Nav';
 import About from './components/Nav/pages/about'
 import Contact from './components/Nav/pages/contact'
 import Header from './components/Header';
-import Portfolio from './components/Project';
-//import Project from './components/Project';
+import Project from './components/Project';
 //mport Footer from './components/Footer';
 
 
@@ -19,7 +18,7 @@ function App() {
        case 'About':
          return <About />;
        case 'Portfolio':
-         return <Portfolio />;
+         return <Project />;
       //  case 'Resume':
       //    return <Resume />;
        case 'Contact':
