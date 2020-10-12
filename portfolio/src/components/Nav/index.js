@@ -4,7 +4,7 @@ import React from 'react';
 function Nav(props) {
     const tabs = ['Home', 'About', 'Portfolio', 'Resume', 'Contact'];
     return (
-        <ul className="flex-row">
+        <ul className="flex-row nav-align">
           {tabs.map(tab => (
             <li className="mx-2" key={tab}>
               <a
