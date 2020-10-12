@@ -35,8 +35,8 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--dark);
-  color: var(--light);
-  font-family: 'Lobster', cursive;
+  color: var(--darker);
+  
 
 }
 
@@ -237,8 +237,7 @@ textarea {
 }
 
 .img-thumbnail {
-  width: auto;
-  height: 300px;
+  width: 30%;
   margin-bottom: 50px;
   cursor: pointer;
 }
@@ -270,20 +269,21 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background: var(--light);
 	border: 0;
 	border-radius: 5px;
-	color: #fff;
+	color: var(--darker);
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
+	margin-top: 10px;
+  padding: 10px 15px;
+  font-family: 'Lobster', cursive;	
 }
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--light);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
