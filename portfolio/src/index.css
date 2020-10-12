@@ -39,7 +39,14 @@ body {
   
 
 }
+footer {
+  text-align: center;
+}
 
+.nav-align {
+  text-align: right;
+  margin-left: 500px;
+}
 h1,
 h2,
 h3,
@@ -241,7 +248,14 @@ textarea {
   margin-bottom: 50px;
   cursor: pointer;
 }
+.home-image {
+  width: 30%;
+  margin-left: 400px;
+}
 
+.home {
+  text-align: center;
+}
 .modalBackdrop {
 	background: rgba(0, 0, 0, .65);
 	bottom: 0;

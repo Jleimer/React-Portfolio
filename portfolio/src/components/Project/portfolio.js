@@ -33,6 +33,11 @@ const Portfolio = ({ category }) => {
       name: 'Prestige Worldwide',
       website: 'https://jdlawton.github.io/prestige-worldwide/',
       gitHub: 'https://github.com/jdlawton/prestige-worldwide' 
+    },
+    {
+      name: 'Volunteer Hub',
+      website: 'https://volunteer-hub.herokuapp.com/',
+      gitHub: 'https://github.com/johnmckech/volunteer-hub'
     }
     
   ]);
