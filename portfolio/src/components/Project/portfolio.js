@@ -38,6 +38,11 @@ const Portfolio = ({ category }) => {
       name: 'Volunteer Hub',
       website: 'https://volunteer-hub.herokuapp.com/',
       gitHub: 'https://github.com/johnmckech/volunteer-hub'
+    },
+    {
+      name: 'The Makers Corner',
+      website: 'https://tranquil-dusk-14791.herokuapp.com/',
+      gitHub: 'https://github.com/Jleimer/The-Makers-Corner'
     }
     
   ]);
